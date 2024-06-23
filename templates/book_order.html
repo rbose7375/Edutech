@@ -1,0 +1,67 @@
+{% load static %}
+{% include 'widgets/header.html' %}
+<style></style>
+<div class="m-5 p-3">
+  <div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">Book Now</h1>
+    </header>
+    <div class="form-wrap">
+      <form action="/api/v1/book-class" method="post">
+        {% csrf_token %}
+        <input type="hidden" name="service_id" value="{{product.id}}">
+        <input type="hidden" name="web">
+        <div class="row">
+          <div class="col-md-6 p-3">
+            <div class="form-group">
+              <label for="first_name">First Name:</label>
+              <input type="text" name="first_name" placeholder="Enter your name" class="form-control" required />
+            </div>
+          </div>
+          <div class="col-md-6 p-3">
+            <div class="form-group">
+              <label for="last_name">Last Name:</label>
+              <input type="text" name="last_name" placeholder="Enter your name" class="form-control" required />
+            </div>
+          </div>
+          <div class="col-md-6 p-3">
+            <div class="form-group">
+              <label for="phone_no">Phone Number:</label>
+              <input type="number" name="phone" placeholder="Enter your number" class="form-control" required />
+            </div>
+          </div>
+          <div class="col-md-6 p-3">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" name="email" placeholder="Enter your email" class="form-control" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 p-3">
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <textarea class="form-control" name="address" placeholder="Enter your address" rows="1"></textarea>
+            </div>
+          </div>
+          <div class="col-md-6 p-3">
+            <div class="form-group">
+              <label>Payment Method:</label>
+              <select id="dropdown" name="payment_method" class="form-control" required>
+                <option disabled selected value>Select</option>
+                <option value="student">Online</option>
+                <option value="job">Offline</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="text-center m-3">
+          <button type="submit" id="submit" class="btn btn-success btn-block col-md-3">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% include 'widgets/footer.html' %}

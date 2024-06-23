@@ -1,0 +1,761 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-06-23T04:36:45.692Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Bassball",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2024-06-23T04:37:14.643Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Swimming",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2024-06-23T04:37:40.799Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "Martial Art",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2024-06-23T04:38:05.848Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Computer Education",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2024-06-23T04:38:15.370Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "Tenis",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2024-06-23T04:56:07.302Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Computer Education",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2024-06-23T04:56:40.675Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Computer",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2024-06-23T05:38:30.912Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Bassball narang classes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2024-06-23T06:20:24.674Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Bassball narang classes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2024-06-23T12:49:03.255Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Unknown user",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2024-06-23T13:15:49.026Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Unknown user",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2024-06-23T14:46:23.690Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Bassball narang classes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2024-06-23T14:49:17.906Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Bassball narang classes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add Token",
+            "content_type": 6,
+            "codename": "add_token"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change Token",
+            "content_type": 6,
+            "codename": "change_token"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete Token",
+            "content_type": 6,
+            "codename": "delete_token"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view Token",
+            "content_type": 6,
+            "codename": "view_token"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add Token",
+            "content_type": 7,
+            "codename": "add_tokenproxy"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change Token",
+            "content_type": 7,
+            "codename": "change_tokenproxy"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete Token",
+            "content_type": 7,
+            "codename": "delete_tokenproxy"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view Token",
+            "content_type": 7,
+            "codename": "view_tokenproxy"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 8,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 8,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 8,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 8,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add favorite list",
+            "content_type": 9,
+            "codename": "add_favoritelist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change favorite list",
+            "content_type": 9,
+            "codename": "change_favoritelist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete favorite list",
+            "content_type": 9,
+            "codename": "delete_favoritelist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view favorite list",
+            "content_type": 9,
+            "codename": "view_favoritelist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add book class",
+            "content_type": 10,
+            "codename": "add_bookclass"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change book class",
+            "content_type": 10,
+            "codename": "change_bookclass"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete book class",
+            "content_type": 10,
+            "codename": "delete_bookclass"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view book class",
+            "content_type": 10,
+            "codename": "view_bookclass"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add product services",
+            "content_type": 11,
+            "codename": "add_productservices"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change product services",
+            "content_type": 11,
+            "codename": "change_productservices"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete product services",
+            "content_type": 11,
+            "codename": "delete_productservices"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view product services",
+            "content_type": 11,
+            "codename": "view_productservices"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add product services category",
+            "content_type": 12,
+            "codename": "add_productservicescategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change product services category",
+            "content_type": 12,
+            "codename": "change_productservicescategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete product services category",
+            "content_type": 12,
+            "codename": "delete_productservicescategory"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view product services category",
+            "content_type": 12,
+            "codename": "view_productservicescategory"
+        }
+    },
+    {
+        "model": "authtoken.token",
+        "pk": "4e0324426d7672c279fe698b2f690fb2f36274bd",
+        "fields": {
+            "user": 1,
+            "created": "2024-06-22T14:05:05.084Z"
+        }
+    },
+    {
+        "model": "cart.favoritelist",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "product": 1,
+            "is_booked": false,
+            "is_active": true,
+            "created_date": "2024-06-23T12:49:03.244Z",
+            "update_date": "2024-06-23T13:38:47.800Z"
+        }
+    },
+    {
+        "model": "cart.bookclass",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "product": 1,
+            "name": null,
+            "email": "siudwz@wef.ui",
+            "phone": "238289489238",
+            "address": "svsdiugsiu iu",
+            "payment_method": "job",
+            "is_paid": false,
+            "is_active": true,
+            "created_date": "2024-06-23T09:04:38.683Z",
+            "update_date": "2024-06-23T09:04:38.694Z"
+        }
+    },
+    {
+        "model": "cart.bookclass",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "product": 1,
+            "name": null,
+            "email": "sdfsdf@sdfsd",
+            "phone": "3223",
+            "address": "sdfsdfsdfsdf",
+            "payment_method": "student",
+            "is_paid": false,
+            "is_active": true,
+            "created_date": "2024-06-23T09:37:54.929Z",
+            "update_date": "2024-06-23T09:37:54.942Z"
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$VMO0KgcZFkC8wg4isUP1Gm$yQ5vONcoZD8uKkFUR9LNL+oAV9J6yoyAijQo+8Vsc40=",
+            "last_login": "2024-06-23T09:03:56.922Z",
+            "is_superuser": true,
+            "email": "",
+            "username": "9716754099",
+            "first_name": "",
+            "last_name": "",
+            "date_joined": "2024-06-22T14:05:05.059Z",
+            "is_active": true,
+            "is_staff": true,
+            "avatar": "",
+            "registration_number": "",
+            "mobile": "0",
+            "birth_date": null,
+            "gender": "",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "services.productservicescategory",
+        "pk": 1,
+        "fields": {
+            "name": "Bassball",
+            "slug": "bass-ball",
+            "image": "category/bassball.jpg",
+            "is_active": true,
+            "created_date": "2024-06-23T04:36:45.688Z",
+            "update_date": "2024-06-23T04:36:45.688Z"
+        }
+    },
+    {
+        "model": "services.productservicescategory",
+        "pk": 2,
+        "fields": {
+            "name": "Swimming",
+            "slug": "swimming",
+            "image": "category/swiming-class.jpg",
+            "is_active": true,
+            "created_date": "2024-06-23T04:37:14.641Z",
+            "update_date": "2024-06-23T04:37:14.641Z"
+        }
+    },
+    {
+        "model": "services.productservicescategory",
+        "pk": 3,
+        "fields": {
+            "name": "Martial Art",
+            "slug": "martial-art",
+            "image": "category/mms-class.jpg",
+            "is_active": true,
+            "created_date": "2024-06-23T04:37:40.797Z",
+            "update_date": "2024-06-23T04:37:40.797Z"
+        }
+    },
+    {
+        "model": "services.productservicescategory",
+        "pk": 4,
+        "fields": {
+            "name": "Computer",
+            "slug": "coumputer-education",
+            "image": "category/she-is-prefect-students.jpg",
+            "is_active": true,
+            "created_date": "2024-06-23T04:38:05.847Z",
+            "update_date": "2024-06-23T04:56:40.672Z"
+        }
+    },
+    {
+        "model": "services.productservicescategory",
+        "pk": 5,
+        "fields": {
+            "name": "Tenis",
+            "slug": "tenis",
+            "image": "category/tenis-class.webp",
+            "is_active": true,
+            "created_date": "2024-06-23T04:38:15.368Z",
+            "update_date": "2024-06-23T04:38:15.368Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "name": "Bassball narang classes",
+            "price_currency": "₹",
+            "price": 13000,
+            "length": "180 hrs",
+            "experties_level": "Intermediate",
+            "open_time": "10:00:00",
+            "close_time": "18:00:00",
+            "image": "product/baseball_557405302_1000.jpg",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"attributes\\\":{\\\"alt\\\":\\\"NHSBCA\\\",\\\"height\\\":\\\"100\\\",\\\"width\\\":\\\"100\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://coachtube.com/public/images/thumbs/medium/User/15914099.a0735402db6acf6d4d623192f2ba7a67.jpg\\\"}},{\\\"insert\\\":\\\"\\\\nTeaching the fundamentals of the game with Mark Mckenzie\\\"},{\\\"attributes\\\":{\\\"header\\\":1},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#337ab7\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://coachtube.com/u/nhsbca\\\"},\\\"insert\\\":\\\"by NHSBCA\\\"},{\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"alt\\\":\\\"Teaching the fundamentals of the game with Mark Mckenzie\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://coachtube.com/public/images/thumbs/very_big/Course/16048993.f2574b82cef14e7fd26915b0e943161f.jpg\\\"}},{\\\"insert\\\":\\\"\\\\nDescription\\\"},{\\\"attributes\\\":{\\\"header\\\":3},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":\\\"Infield or outfield, batting or pitching, each require their set of fundamentals. Without them, there wouldn't be high level athletes or big leaguers. Throwing, catching, and hitting are the three primary skills required to play baseball. Young players with a passion for this game should look to improve the skills in these three primary areas. Pitching and fielding are considered slightly more difficult however they too require a clear understanding of fundamentals. \\\\n \\\\nIt's an obvious fact that great players understand that mastering the basics of baseball is one of the most important aspects of improving their skills. Big leaguers make the most routine of plays look completely effortless because they are able to execute the movements in their sleep.\\\\n \\\\nIn this course, Mark “lunch” Mckenzie talks about the fundamentals of the game, as well as how he approaches his players when teaching them everything they need to know. He breaks down what he practices and what drills he uses to help develop his players. A guidebook to baseball 101.\\\\n \\\\nSimply click the ‘Book This Course’ button at the top right of this page, place your order, and you’ll immediately be logged into the training with full access. Learn how to teach the fundamentals of the game the right way!\\\\n\\\"}]}\",\"html\":\"<p><img src=\\\"https://coachtube.com/public/images/thumbs/medium/User/15914099.a0735402db6acf6d4d623192f2ba7a67.jpg\\\" alt=\\\"NHSBCA\\\" height=\\\"100\\\" width=\\\"100\\\"></p><h1>Teaching the fundamentals of the game with Mark Mckenzie</h1><p><a href=\\\"https://coachtube.com/u/nhsbca\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(51, 122, 183); background-color: transparent;\\\">by NHSBCA</a></p><p><img src=\\\"https://coachtube.com/public/images/thumbs/very_big/Course/16048993.f2574b82cef14e7fd26915b0e943161f.jpg\\\" alt=\\\"Teaching the fundamentals of the game with Mark Mckenzie\\\"></p><h3>Description</h3><p>Infield or outfield, batting or pitching, each require their set of fundamentals. Without them, there wouldn't be high level athletes or big leaguers. Throwing, catching, and hitting are the three primary skills required to play baseball. Young players with a passion for this game should look to improve the skills in these three primary areas. Pitching and fielding are considered slightly more difficult however they too require a clear understanding of fundamentals.&nbsp;</p><p>&nbsp;</p><p>It's an obvious fact that great players understand that mastering the basics of baseball is one of the most important aspects of improving their skills. Big leaguers make the most routine of plays look completely effortless because they are able to execute the movements in their sleep.</p><p>&nbsp;</p><p>In this course, Mark “lunch” Mckenzie talks about the fundamentals of the game, as well as how he approaches his players when teaching them everything they need to know. He breaks down what he practices and what drills he uses to help develop his players. A guidebook to baseball 101.</p><p>&nbsp;</p><p>Simply click the ‘Book This Course’ button at the top right of this page, place your order, and you’ll immediately be logged into the training with full access. Learn how to teach the fundamentals of the game the right way!</p>\"}",
+            "slug": "Bassball-narang-classes-intermediate",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T05:38:30.891Z",
+            "update_date": "2024-06-23T14:49:17.902Z"
+        }
+    }
+]

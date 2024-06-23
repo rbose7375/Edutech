@@ -1,0 +1,25 @@
+{% load static %}
+{% include 'widgets/header.html' %}
+<style>
+  .thank_text {
+    align-items: center;
+    justify-content: center;
+  }
+  .thank_text h1 {
+    font-family: cursive, 'Helvetica Neue', sans-serif;
+    font-size: 5rem;
+  }
+</style>
+<div class="container">
+  <div class="m-5 p-4 text-center gap-6">
+    <div class="thank_text">
+      <h1>Thank You<sapn>!</sapn></h1>
+    </div>
+    <div class="thank_img">
+      <img src="static/img/login/thankPageTick.png" alt="thank_img" />
+    </div>
+  </div>
+</div>
+
+{% include 'widgets/footer.html' %}
+

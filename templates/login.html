@@ -1,0 +1,27 @@
+{% load static %}
+{% include 'widgets/header.html' %}
+<link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="active"> Sign In To Edutech</h2>
+          {% comment %} <h2 class="inactive underlineHover">Sign Up </h2> {% endcomment %}
+      
+      
+          <!-- Login Form -->
+          <form action="/login" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="login">
+            <input type="hidden" name="web">
+            <input type="text" id="login" class="fadeIn second" name="username" placeholder="email/phone number" required>
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
+            <p class="text-danger"> {% for message in messages %}{{message.message}}{% endfor%}</p>
+            <input type="submit" class="fadeIn fourth" value="Log In">
+          </form>
+      
+         
+      
+        </div>
+    </div>
+</div>
+{% include 'widgets/footer.html' %}

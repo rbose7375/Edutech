@@ -1,0 +1,47 @@
+{% load static %}
+{% include 'widgets/header.html' %}
+<style>
+  img {
+    width: 100%;
+  }
+  .class_detail {
+    border-right: 3px solid #dadada;
+    text-transform: capitalize;
+  }
+  .class_detail:nth-child(3) {
+    border-right: none;
+  }
+</style>
+<div class="mt-5 p-5">
+  <div class="container">
+    <div class="detail_container d-flex gap-3 flex-wrap ">
+      <div class="detail_tag p-2">
+        <div class="tag_container d-flex gap-2 flex-wrap">
+          <div class="class_detail d-flex p-2">
+            <h6 class="">Price: {{ product.price_currency }}{{ product.price }}</h6>
+          </div>
+          <div class="class_detail d-flex p-2">
+            <h6 class="">Duration: {{ product.length }}</h6>
+          </div>
+          <div class="class_detail d-flex p-2">
+            <h6 class="">Level: {{ product.experties_level }}</h6>
+          </div>
+        </div>
+      </div>
+      <div class="p-2">
+        <a href="/book/{{ product.slug }}" class="btn btn-success">Book now</a>
+      </div>
+    </div>
+    <div class="d-flex flex-wrap col-12">
+      <div class="col-10 pe-5">
+        {{ product.description.html|safe }}
+        <div class="text-center">
+          <a href="/book/{{ product.slug }}" class="btn btn-success">Book now</a>
+        </div>
+      </div>
+      <div class="col-2 ps-2"></div>
+    </div>
+  </div>
+</div>
+
+{% include 'widgets/footer.html' %}

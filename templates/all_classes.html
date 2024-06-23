@@ -1,0 +1,100 @@
+{% load static %}
+{% include 'widgets/header.html' %}
+{% if prodcut %}
+  <section class="py-5">
+    <div class="container">
+      {% if services %}
+        <h2 class="text-center">Top Class</h2>
+      {% endif %}
+      <div class="d-flex flex-wrap justify-content-center">
+        {% if services %}
+          {% for cls in services %}
+          <div class="col-12 col-xl-3 col-md-4 col-xxl-3 p-2">
+            <a href="/class/{{cls.slug}}">
+
+                <div class="card">
+                  <div class="img-heads">
+                    <img style="width:100%" src="/media/{{ cls.image }}" alt="" />
+                    {% if request.user.is_authenticated %}
+                        {% if cls.id in  request.user.fav_list %}
+                            <span onclick="fav_this_class({{cls.id}},'fav_icon','{{csrf_token}}','fill',event)" class="fav_icon text-danger" style=" user-select: none;">&#9829; </span>
+                        {% else %}
+                            <span onclick="fav_this_class({{cls.id}},'fav_icon','{{csrf_token}}','blank',event)"  class="fav_icon text-danger" style=" user-select: none;">&#9825; </span>
+                        {%endif%}
+                    {% else %}
+                        <a href="/login">
+                            <span class="fav_icon text-danger" style=" user-select: none;">&#9825;</span>
+                        </a>
+                    {%endif%}
+                  </div>
+                  <div class="body">
+                    <div class="d-flex px-3 justify-content-between mb-2">
+                        <div>
+                            <p class="m-0"><small>class name</small></p>
+                            <p class="p-0 m-0">{{ cls.name }}</p>
+                        </div>
+                        <div>
+                            <p class="m-0"><small>class price</small></p>
+                            <p class="p-0 m-0">{{ cls.price_currency }} {{ cls.price }}</p>
+                        </div>
+                    </div>
+                    <div class="d-flex px-3 justify-content-between mb-2">
+                        <div>
+                            <p class="m-0"><small>class Category</small></p>
+                            <p class="p-0 m-0">{{ cls.category.name }}</p>
+                        </div>
+                        <div>
+                            <p class="m-0"><small>class duration</small></p>
+                            <p class="p-0 m-0">{{ cls.length }}</p>
+                        </div>
+                    </div>
+                    <div class="d-flex px-3 justify-content-between mb-2">
+                        <div>
+                            <p class="m-0"><small>class level</small></p>
+                            <p class="p-0 m-0">{{ cls.experties_level }}</p>
+                        </div>
+                        <div>
+                            <p class="m-0"><small>insitute working time</small></p>
+                            <p class="p-0 m-0">{{ cls.open_time }} - {{ cls.close_time }}</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </a>
+          </div>
+          {% endfor %}
+        {% else %}
+          <h2 class="text-center">Sorry we don't have class now</h2>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% else %}
+  <section class="py-5">
+    <div class="container mt-3">
+      {% if categeries %}
+        <h2 class="text-center">Class we offer</h2>
+      {% endif %}
+      {% if categeries %}
+        <div class="d-flex flex-wrap justify-content-center">
+          {% for category in categeries %}
+            <div class="col-12 col-xl-3 col-md-4 col-xxl-3 p-2">
+              <a href="/all-classes/{{ category.slug }}">
+                <div class="card">
+                  <div class="img-head">
+                    <img style="width:100%;height:230px;" src="/media/{{ category.image }}" alt="" />
+                    <div class="category-name">{{ category.name|upper }}</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <h2 class="text-center">Sorry we don't have category of class now</h2>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
+
+{% include 'widgets/footer.html' %}
