@@ -169,6 +169,292 @@
         }
     },
     {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2024-06-23T15:10:26.147Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Jethalal swimming classes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2024-06-23T15:10:36.954Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Jethalal swimming classes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Is home\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2024-06-23T15:17:42.354Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Junad Martial Art",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2024-06-23T15:17:52.997Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Jethalal swimming classes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Length\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2024-06-23T15:27:28.134Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "Teena Sport Class",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2024-06-23T15:32:52.991Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "ITCC Education",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2024-06-23T15:38:50.699Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "6",
+            "object_repr": "Parveen Bassball Classes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2024-06-23T15:39:13.359Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "6",
+            "object_repr": "Parveen Bassball Classes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Experties level\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2024-06-23T15:48:15.453Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "7",
+            "object_repr": "Rahul Martial Art",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2024-06-23T15:53:44.983Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "8",
+            "object_repr": "Senu Swimming Class",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2024-06-23T15:59:04.101Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "9",
+            "object_repr": "Surya Computers",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2024-06-23T16:01:51.227Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Jethalal swimming classes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2024-06-23T16:02:11.941Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Junad Martial Art",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2024-06-23T16:03:16.781Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Junad Martial Art",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2024-06-23T16:04:53.269Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "Teena Sport Class",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2024-06-23T16:06:36.573Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "ITCC Education",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Price currency\", \"Price\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2024-06-23T16:07:56.294Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "6",
+            "object_repr": "Parveen Bassball Classes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2024-06-23T16:08:17.724Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "7",
+            "object_repr": "Rahul Martial Art",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2024-06-23T16:09:09.943Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "8",
+            "object_repr": "Senu Swimming Class",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2024-06-23T16:09:25.506Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "9",
+            "object_repr": "Surya Computers",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2024-06-23T16:13:27.910Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "10",
+            "object_repr": "Rony Tenis Classes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2024-06-23T16:13:43.693Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "10",
+            "object_repr": "Rony Tenis Classes",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
         "model": "auth.permission",
         "pk": 1,
         "fields": {
@@ -756,6 +1042,174 @@
             "is_home": true,
             "created_date": "2024-06-23T05:38:30.891Z",
             "update_date": "2024-06-23T14:49:17.902Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 2,
+        "fields": {
+            "category": 2,
+            "name": "Jethalal swimming classes",
+            "price_currency": "₹",
+            "price": 1000,
+            "length": "240 hrs",
+            "experties_level": "beginner",
+            "open_time": "15:09:31",
+            "close_time": "15:09:33",
+            "image": "product/depositphotos_483504386-stock-photo-happy-kid-boy-swim-and.jpg",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"insert\\\":\\\"Step 1: Feel the Water\\\"},{\\\"attributes\\\":{\\\"header\\\":4},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":{\\\"image\\\":\\\"https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/609fe04d7bc8db4309040cbf_a3n9qbw4Rda9NX3IxcDNR6Eh8wQCF3hPJWHNmzhihJT_Y32QQhk7X9WKQNMQ-GmiSA4KtjOLbYPNCccb8jwQOBJDWslnenkC4EMEp7uBk5UgIq6-UPDKl5WStwUFEtRGdCZYIMos.png\\\"}},{\\\"insert\\\":\\\"‍\\\\nThe first step to learning swimming is to be comfortable in the water. I call it “Build the Water Confidence Stage”. Just walk to and fro in shallow water, for Kids it's recommended to have this in the baby pool near the wall side. This will help to get a feel of water.\\\\n‍\\\\nStep 2: Blow Bubbles Underwater\\\"},{\\\"attributes\\\":{\\\"header\\\":4},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":{\\\"image\\\":\\\"https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/609fe45e4e046051532035ba_s9DLhN1vI5y3egnOxZkvhI3Djy0j_klE8UoSTA4C8m56Iv__9Z3sDNRgXynYUtAOag3DgPO0S5dxkMfGymg_H3xLS50tfJ5qbQ0xyLoYh2EPMEPPx2QgkW3uzASiu72nLRLA2DZS.png\\\"}},{\\\"insert\\\":\\\"‍\\\\nThis is a fun and important part of breathing. To do this you got to remember when you are above water \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\"},\\\"insert\\\":\\\"Breathe IN\\\"},{\\\"insert\\\":\\\" from your mouth,\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\"},\\\"insert\\\":\\\" Hold\\\"},{\\\"insert\\\":\\\" till you get underwater, and \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\"},\\\"insert\\\":\\\"Breathe OUT \\\"},{\\\"insert\\\":\\\"slowly from your nose as you go underwater. Now as you are reading this do 5 times \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\"},\\\"insert\\\":\\\"(Breath in – Hold (\\\"},{\\\"insert\\\":\\\"2 sec\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\"},\\\"insert\\\":\\\") – Breathe Out)\\\"},{\\\"insert\\\":\\\" as this will prepare you for underwater. While you are going to Blow bubbles underwater, I advise you to wear goggles as this will keep your eyes open and help you to see underwater which makes you stable and be fun at the same time. That’s Good we are now moving to Step no.3\\\\n‍\\\\nStep 3: Floating\\\"},{\\\"attributes\\\":{\\\"header\\\":4},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\"},\\\"insert\\\":\\\"First of all, let me tell you there are two types of floating one is just to lay on your ba\\\"},{\\\"insert\\\":\\\"ck and relax and the second is to put your chest and head down in the water. The latter is what we are going to focus on as this is going to help in learning to swim.\\\\n\\\"}]}\",\"html\":\"<h4>Step 1: Feel the Water</h4><p><img src=\\\"https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/609fe04d7bc8db4309040cbf_a3n9qbw4Rda9NX3IxcDNR6Eh8wQCF3hPJWHNmzhihJT_Y32QQhk7X9WKQNMQ-GmiSA4KtjOLbYPNCccb8jwQOBJDWslnenkC4EMEp7uBk5UgIq6-UPDKl5WStwUFEtRGdCZYIMos.png\\\">‍</p><p>The first step to learning swimming is to be comfortable in the water. I call it “Build the Water Confidence Stage”. Just walk to and fro in shallow water, for Kids it's recommended to have this in the baby pool near the wall side. This will help to get a feel of water.</p><p>‍</p><h4>Step 2: Blow Bubbles Underwater</h4><p><img src=\\\"https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/609fe45e4e046051532035ba_s9DLhN1vI5y3egnOxZkvhI3Djy0j_klE8UoSTA4C8m56Iv__9Z3sDNRgXynYUtAOag3DgPO0S5dxkMfGymg_H3xLS50tfJ5qbQ0xyLoYh2EPMEPPx2QgkW3uzASiu72nLRLA2DZS.png\\\">‍</p><p>This is a fun and important part of breathing. To do this you got to remember when you are above water&nbsp;<span style=\\\"color: rgb(0, 0, 0);\\\">Breathe IN</span>&nbsp;from your mouth,<span style=\\\"color: rgb(0, 0, 0);\\\">&nbsp;Hold</span>&nbsp;till you get underwater, and&nbsp;<span style=\\\"color: rgb(0, 0, 0);\\\">Breathe OUT&nbsp;</span>slowly from your nose as you go underwater. Now as you are reading this do 5 times&nbsp;<span style=\\\"color: rgb(0, 0, 0);\\\">(Breath in&nbsp;– Hold (</span>2 sec<span style=\\\"color: rgb(0, 0, 0);\\\">) – Breathe Out)</span>&nbsp;as this will prepare you for underwater. While you are going to Blow bubbles underwater, I advise you to wear goggles as this will keep your eyes open and help you to see underwater which makes you stable and be fun at the same time. That’s Good we are now moving to Step no.3</p><p>‍</p><h4>Step 3: Floating</h4><p><span style=\\\"color: rgb(0, 0, 0);\\\">First of all, let me tell you there are two types of floating one is just to lay on your ba</span>ck and relax and the second is to put your chest and head down in the water. The latter is what we are going to focus on as this is going to help in learning to swim.</p>\"}",
+            "slug": "beginner_swiming_class",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T15:10:26.144Z",
+            "update_date": "2024-06-23T16:01:51.221Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 3,
+        "fields": {
+            "category": 3,
+            "name": "Junad Martial Art",
+            "price_currency": "₹",
+            "price": 300,
+            "length": "240 hrs",
+            "experties_level": "Expert",
+            "open_time": "15:16:56",
+            "close_time": "15:16:57",
+            "image": "product/chinese-martial-arts-feature-image.jpg",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"attributes\\\":{\\\"color\\\":\\\"var(--ast-global-color-3)\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/2024/05/30/mental-benefits-of-martial-arts/\\\"},\\\"insert\\\":\\\"Mental Benefits of Martial Arts\\\"},{\\\"attributes\\\":{\\\"header\\\":2},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/Course/food-for-thought/\\\"},\\\"insert\\\":\\\"Food for Thought\\\"},{\\\"insert\\\":\\\" / By \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/author/joel/\\\"},\\\"insert\\\":\\\"Joel Williams \\\"},{\\\"insert\\\":\\\"/ May 30, 2024 / \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/global-martial-arts-university/\\\"},\\\"insert\\\":\\\"Global Martial Arts University\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/gmau/\\\"},\\\"insert\\\":\\\"GMAU\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/martial-arts/\\\"},\\\"insert\\\":\\\"Martial Arts\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/mental-benefits/\\\"},\\\"insert\\\":\\\"Mental Benefits\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/train-at-home/\\\"},\\\"insert\\\":\\\"Train At Home\\\"},{\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"height\\\":\\\"240\\\",\\\"width\\\":\\\"429\\\",\\\"color\\\":\\\"#fec733\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/2024/05/30/mental-benefits-of-martial-arts/\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://149811805.v2.pressablecdn.com/wp-content/uploads/2024/05/mental-benefits-feature.jpg\\\"}},{\\\"insert\\\":\\\"\\\\nMartial arts involve a significant mental component alongside physical training. They emphasize discipline, focus, perseverance, and self-control. Practitioners often develop mental resilience, clarity, and the ability to remain calm under pressure. Meditation and mindfulness are also commonly integrated into martial arts training to enhance mental strength and concentration. Read on to find out more about the mental benefits of martial arts.\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"var(--ast-global-color-3)\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/2024/05/21/key-tips-for-the-nunchaku-back-switch/\\\"},\\\"insert\\\":\\\"Top Tips For The Nunchaku Back-Switch\\\"},{\\\"attributes\\\":{\\\"header\\\":2},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/Course/nunchaku/\\\"},\\\"insert\\\":\\\"Nunchaku\\\"},{\\\"insert\\\":\\\" / By \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/author/joel/\\\"},\\\"insert\\\":\\\"Joel Williams \\\"},{\\\"insert\\\":\\\"/ May 21, 2024 / \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/back-switch/\\\"},\\\"insert\\\":\\\"Back Switch\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/global-martial-arts-university/\\\"},\\\"insert\\\":\\\"Global Martial Arts University\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/gmau/\\\"},\\\"insert\\\":\\\"GMAU\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/kobudo/\\\"},\\\"insert\\\":\\\"Kobudo\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/martial-arts/\\\"},\\\"insert\\\":\\\"Martial Arts\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/nunchaku/\\\"},\\\"insert\\\":\\\"Nunchaku\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/train-at-home/\\\"},\\\"insert\\\":\\\"Train At Home\\\"},{\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"height\\\":\\\"240\\\",\\\"width\\\":\\\"360\\\",\\\"color\\\":\\\"#fec733\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/2024/05/21/key-tips-for-the-nunchaku-back-switch/\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://149811805.v2.pressablecdn.com/wp-content/uploads/2024/04/chuck-feature.jpg\\\"}},{\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"var(--ast-global-color-3)\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/2024/05/07/the-overhead-bo-front-strike-in-4-easy-steps/\\\"},\\\"insert\\\":\\\"The Overhead Bo Front-Strike in 4 Easy Steps\\\"},{\\\"attributes\\\":{\\\"header\\\":2},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/Course/ultimate-bo/\\\"},\\\"insert\\\":\\\"Ultimate Bo\\\"},{\\\"insert\\\":\\\" / By \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/author/joel/\\\"},\\\"insert\\\":\\\"Joel Williams \\\"},{\\\"insert\\\":\\\"/ May 7, 2024 / \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/bo/\\\"},\\\"insert\\\":\\\"bo\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/bo-staff/\\\"},\\\"insert\\\":\\\"bo staff\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/bojutsu/\\\"},\\\"insert\\\":\\\"Bojutsu\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/global-martial-arts-university/\\\"},\\\"insert\\\":\\\"Global Martial Arts University\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/gmau/\\\"},\\\"insert\\\":\\\"GMAU\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/karate/\\\"},\\\"insert\\\":\\\"karate\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/kobudo/\\\"},\\\"insert\\\":\\\"Kobudo\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/martial-arts/\\\"},\\\"insert\\\":\\\"Martial Arts\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/staff/\\\"},\\\"insert\\\":\\\"staff\\\"},{\\\"insert\\\":\\\", \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#505050\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/tag/train-at-home/\\\"},\\\"insert\\\":\\\"Train At Home\\\"},{\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"height\\\":\\\"240\\\",\\\"width\\\":\\\"160\\\",\\\"color\\\":\\\"#fec733\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://globalmartialarts.university/2024/05/07/the-overhead-bo-front-strike-in-4-easy-steps/\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://149811805.v2.pressablecdn.com/wp-content/uploads/2024/05/feature.jpg\\\"}},{\\\"insert\\\":\\\"\\\\nThis blog post is focused on how to properly execute the most basic Bo (staff) strike: the overhead front strike. You can learn this technique quickly in just 4 steps! Read on to learn how.\\\\n\\\"}]}\",\"html\":\"<h2><a href=\\\"https://globalmartialarts.university/2024/05/30/mental-benefits-of-martial-arts/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: var(--ast-global-color-3); background-color: transparent;\\\">Mental Benefits of Martial Arts</a></h2><p><a href=\\\"https://globalmartialarts.university/Course/food-for-thought/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Food for Thought</a>&nbsp;/ By&nbsp;<a href=\\\"https://globalmartialarts.university/author/joel/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Joel Williams&nbsp;</a>/&nbsp;May 30, 2024&nbsp;/&nbsp;<a href=\\\"https://globalmartialarts.university/tag/global-martial-arts-university/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Global Martial Arts University</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/gmau/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">GMAU</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/martial-arts/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Martial Arts</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/mental-benefits/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Mental Benefits</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/train-at-home/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Train At Home</a></p><p><a href=\\\"https://globalmartialarts.university/2024/05/30/mental-benefits-of-martial-arts/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(254, 199, 51); background-color: transparent;\\\"><img src=\\\"https://149811805.v2.pressablecdn.com/wp-content/uploads/2024/05/mental-benefits-feature.jpg\\\" height=\\\"240\\\" width=\\\"429\\\"></a></p><p>Martial arts involve a significant mental component alongside physical training. They emphasize discipline, focus, perseverance, and self-control. Practitioners often develop mental resilience, clarity, and the ability to remain calm under pressure. Meditation and mindfulness are also commonly integrated into martial arts training to enhance mental strength and concentration. Read on to find out more about the mental benefits of martial arts.</p><h2><a href=\\\"https://globalmartialarts.university/2024/05/21/key-tips-for-the-nunchaku-back-switch/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: var(--ast-global-color-3); background-color: transparent;\\\">Top Tips For The Nunchaku Back-Switch</a></h2><p><a href=\\\"https://globalmartialarts.university/Course/nunchaku/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Nunchaku</a>&nbsp;/ By&nbsp;<a href=\\\"https://globalmartialarts.university/author/joel/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Joel Williams&nbsp;</a>/&nbsp;May 21, 2024&nbsp;/&nbsp;<a href=\\\"https://globalmartialarts.university/tag/back-switch/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Back Switch</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/global-martial-arts-university/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Global Martial Arts University</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/gmau/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">GMAU</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/kobudo/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Kobudo</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/martial-arts/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Martial Arts</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/nunchaku/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Nunchaku</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/train-at-home/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Train At Home</a></p><p><a href=\\\"https://globalmartialarts.university/2024/05/21/key-tips-for-the-nunchaku-back-switch/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(254, 199, 51); background-color: transparent;\\\"><img src=\\\"https://149811805.v2.pressablecdn.com/wp-content/uploads/2024/04/chuck-feature.jpg\\\" height=\\\"240\\\" width=\\\"360\\\"></a></p><h2><a href=\\\"https://globalmartialarts.university/2024/05/07/the-overhead-bo-front-strike-in-4-easy-steps/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: var(--ast-global-color-3); background-color: transparent;\\\">The Overhead Bo Front-Strike in 4 Easy Steps</a></h2><p><a href=\\\"https://globalmartialarts.university/Course/ultimate-bo/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Ultimate Bo</a>&nbsp;/ By&nbsp;<a href=\\\"https://globalmartialarts.university/author/joel/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Joel Williams&nbsp;</a>/&nbsp;May 7, 2024&nbsp;/&nbsp;<a href=\\\"https://globalmartialarts.university/tag/bo/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">bo</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/bo-staff/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">bo staff</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/bojutsu/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Bojutsu</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/global-martial-arts-university/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Global Martial Arts University</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/gmau/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">GMAU</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/karate/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">karate</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/kobudo/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Kobudo</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/martial-arts/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Martial Arts</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/staff/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">staff</a>,&nbsp;<a href=\\\"https://globalmartialarts.university/tag/train-at-home/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(80, 80, 80); background-color: transparent;\\\">Train At Home</a></p><p><a href=\\\"https://globalmartialarts.university/2024/05/07/the-overhead-bo-front-strike-in-4-easy-steps/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(254, 199, 51); background-color: transparent;\\\"><img src=\\\"https://149811805.v2.pressablecdn.com/wp-content/uploads/2024/05/feature.jpg\\\" height=\\\"240\\\" width=\\\"160\\\"></a></p><p>This blog post is focused on how to properly execute the most basic Bo (staff) strike: the overhead front strike. You can learn this technique quickly in just 4 steps! Read on to learn how.</p>\"}",
+            "slug": "expert_martial_art",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T15:17:42.346Z",
+            "update_date": "2024-06-23T16:03:16.775Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 4,
+        "fields": {
+            "category": 5,
+            "name": "Teena Sport Class",
+            "price_currency": "₹",
+            "price": 15000,
+            "length": "300 hrs",
+            "experties_level": "Expert",
+            "open_time": "15:19:38",
+            "close_time": "15:19:39",
+            "image": "product/OG-girls-tennis-school.webp",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"How to build an athlete for tennis\\\"},{\\\"attributes\\\":{\\\"header\\\":1},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":\\\"\\\\n\\\\n\\\"},{\\\"insert\\\":{\\\"image\\\":\\\"https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/12072/images/2c83b21-e647-743e-bef-4d51d7cde3a_tennis_pyramid_blog_thumb.png\\\"}},{\\\"insert\\\":\\\"\\\\n\\\\nOne of my philosophies around developing a complete player is adopting a holistic approach. And to explain this, I use what I call the Complete Player Pyramid. This pyramid is made up of three sections – the person, the athlete and the player.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"The person\\\"},{\\\"insert\\\":\\\"\\\\nThese are the personal characteristics that make a great tennis player and make up the biggest section of the pyramid. They include the will to win, commitment, discipline (sooo much discipline), work ethic, attention to detail, grit and determination. Coachability is also a big aspect of this section, and parents have a significant part to play in developing these traits.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"The athlete\\\"},{\\\"insert\\\":\\\"\\\\nThis is the middle section of the pyramid, and in my opinion becoming larger as the game evolves. This athlete section encompasses all the physical attributes needed to become a top player – speed, strength, agility, flexibility etc.\\\\nThe thing about this section is that it affects our ability as coaches to develop the next section of the pyramid. That’s because if a player can’t get to the ball, balance or coordinate efficiently, it becomes difficult to execute the technical fundamentals.\\\\nAlso, a player who isn't physically fit will find it hard to stay mentally focused and maintain their level.\\\\nMost tennis coaches are not fitness experts and because of this it’s important to provide a way for your players to access and participate in quality fitness. At Tennis Menu we’ve partnered with Tennis Fitness Australia to achieve this. Nathan and Giselle Martin have developed robust, individual, tennis specific programs that they provide online. They work with a heap of top players and are hugely passionate about athlete performance. With them taking care of the fitness – making my players, faster, stronger more flexible - it means that I can focus on what I do best, developing the player.\\\\n\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"The player\\\"},{\\\"insert\\\":\\\"\\\\nThis section of the pyramid is all about the technical and tactical aspects of becoming a great tennis player. Stroke production, developing offence, defence. Knowing a player’s strengths and what tactics to employ against different types of players.\\\\nCoaches, parents and players tend to focus most on this section. Many people think these attributes are the most important to achieve successful outcomes, but you can see from my pyramid, it’s the smallest section.\\\\nThat’s because the bottom layers feed into the top. If you don’t have the personal attributes in the bottom layer, it’s hard to become a good athlete, and if you aren’t a good athlete, it’s difficult to become a great player.\\\\nThat’s why the Complete Player Pyramid emphasises a holistic approach. Because without strong foundations, it’s incredibly difficult to reach the top.\\\\n\\\"}]}\",\"html\":\"<h1><strong>How to build an athlete for tennis</strong></h1><p><br></p><p><br></p><p><img src=\\\"https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/12072/images/2c83b21-e647-743e-bef-4d51d7cde3a_tennis_pyramid_blog_thumb.png\\\"></p><p><br></p><p>One of my philosophies around developing a complete player is adopting a holistic approach. And to explain this, I use what I call the Complete Player Pyramid. This pyramid is made up of three sections – the person, the athlete and the player.</p><p><strong>The person</strong></p><p>These are the personal characteristics that make a great tennis player and make up the biggest section of the pyramid. They include the will to win, commitment, discipline (sooo much discipline), work ethic, attention to detail, grit and determination. Coachability is also a big aspect of this section, and parents have a significant part to play in developing these traits.</p><p><strong>The athlete</strong></p><p>This is the middle section of the pyramid, and in my opinion becoming larger as the game evolves. This athlete section encompasses all the physical attributes needed to become a top player – speed, strength, agility, flexibility etc.</p><p>The thing about this section is that it affects our ability as coaches to develop the next section of the pyramid. That’s because if a player can’t get to the ball, balance or coordinate efficiently, it becomes difficult to execute the technical fundamentals.</p><p>Also, a player who isn't physically fit will find it hard to stay mentally focused and maintain their level.</p><p>Most tennis coaches are not fitness experts and because of this it’s important to provide a way for your players to access and participate in quality fitness. At Tennis Menu we’ve partnered with Tennis Fitness Australia to achieve this. Nathan and Giselle Martin have developed robust, individual, tennis specific programs that they provide online. They work with a heap of top players and are hugely passionate about athlete performance. With them taking care of the fitness – making my players, faster, stronger more flexible - it means that I can focus on what I do best, developing the player.</p><p><br></p><p><strong>The player</strong></p><p>This section of the pyramid is all about the technical and tactical aspects of becoming a great tennis player. Stroke production, developing offence, defence. Knowing a player’s strengths and what tactics to employ against different types of players.</p><p>Coaches, parents and players tend to focus most on this section. Many people think these attributes are the most important to achieve successful outcomes, but you can see from my pyramid, it’s the smallest section.</p><p>That’s because the bottom layers feed into the top. If you don’t have the personal attributes in the bottom layer, it’s hard to become a good athlete, and if you aren’t a good athlete, it’s difficult to become a great player.</p><p>That’s why the Complete Player Pyramid emphasises a holistic approach. Because without strong foundations, it’s incredibly difficult to reach the top.</p>\"}",
+            "slug": "expert_tenis_player",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T15:27:28.129Z",
+            "update_date": "2024-06-23T16:04:53.259Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 5,
+        "fields": {
+            "category": 4,
+            "name": "ITCC Education",
+            "price_currency": "$",
+            "price": 1000,
+            "length": "300 hrs",
+            "experties_level": "Expert",
+            "open_time": "15:28:35",
+            "close_time": "15:28:36",
+            "image": "product/1d8067f2cdd4f6c2b6226bab0af6c108.jpg",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"The Best Computer Science Blogs\\\"},{\\\"attributes\\\":{\\\"header\\\":1},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":\\\"Computer science is an amazing field of study, formalizing as a college discipline \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#3b3e4f\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://cs.uwaterloo.ca/~shallit/Courses/134/history.html#:~:text=1960's,at%20Purdue%20University%20in%201962.\\\"},\\\"insert\\\":\\\"in the ’60s\\\"},{\\\"insert\\\":\\\" and evolving through the decades since to become part of daily life around the world. And, for some of us, it’s also turned into a passion.\\\\nWhether computer science is one of your college courses or just something of casual interest, this blog post is dedicated to you. Detailing 30 of the best computer science blogs, this list is a place to start; continue your own education and find enriching, intriguing topics related to this rapidly changing discipline, no matter your level of experience or your background.\\\\nFor easy skimming and quick decision-making, I’ve rated each blog based on five different criteria:\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Writing quality:\\\"},{\\\"insert\\\":\\\" the overall quality and readability of the content the blog normally produces.\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Consistency:\\\"},{\\\"insert\\\":\\\" how often the blog produces new content.\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Longevity:\\\"},{\\\"insert\\\":\\\" the length of time the blog has been around, which often indicates the trustworthiness and authority of its content.\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Technical depth:\\\"},{\\\"insert\\\":\\\" the level of technical detail you can expect to find on the blog.\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Broad usefulness:\\\"},{\\\"insert\\\":\\\" how many different interests, disciplines, and skill levels the blog appeals to.\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":\\\"\\\\nCurrently the richest, most active place online, in my opinion, where you can read articles dedicated to computer science. A vast amount of contributors publish new content daily, from coding to data-structures, from networks to databases. A great place to start no matter what knowledge needs you may have in computer science.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Writing quality:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Consistency:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Longevity:\\\"},{\\\"insert\\\":\\\" 4\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Technical depth:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Broad usefulness:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Overall score:\\\"},{\\\"insert\\\":\\\" 4.8\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"header\\\":3},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":\\\"Stack Overflow always keeps its promise to solve your technical problems. That’s true not only for their forum, but also for their blog, which publishes great, daily articles about computer science topics of all kinds, but with special regard for programming languages. Our founder Karl Hughes has \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#3b3e4f\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://stackoverflow.blog/author/karl-hughes/\\\"},\\\"insert\\\":\\\"also been a contributor\\\"},{\\\"insert\\\":\\\".\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Writing quality:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Consistency:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Longevity:\\\"},{\\\"insert\\\":\\\" 3\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Technical depth:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Broad usefulness:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Overall score:\\\"},{\\\"insert\\\":\\\" 4.6\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#3b3e4f\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://freedom-to-tinker.com/\\\"},\\\"insert\\\":\\\"Freedom To Tinker\\\"},{\\\"attributes\\\":{\\\"header\\\":3},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"alt\\\":\\\"Freedom To Tinker\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://i.imgur.com/CxJwGwV.png\\\"}},{\\\"insert\\\":\\\"\\\\nHosted by \\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#3b3e4f\\\",\\\"background\\\":\\\"transparent\\\",\\\"link\\\":\\\"https://citp.princeton.edu/about/\\\"},\\\"insert\\\":\\\"Princeton University’s Center for Information Technology Policy\\\"},{\\\"insert\\\":\\\", this is what happens when a research center explores the intersections of technology, engineering, public policy, and the social sciences. The UI is a bit hard to approach, but once you get past that, you’ll discover an amazing source for computer science articles. New content is posted weekly, from deeply technicals articles to discussions of the impact of technology on our daily lives.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Writing quality:\\\"},{\\\"insert\\\":\\\" 5\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Consistency:\\\"},{\\\"insert\\\":\\\" 4\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Longevity:\\\"},{\\\"insert\\\":\\\" 4\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Technical depth:\\\"},{\\\"insert\\\":\\\" 4\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Broad usefulness:\\\"},{\\\"insert\\\":\\\" 4\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Overall score:\\\"},{\\\"insert\\\":\\\" 4.2\\\"},{\\\"attributes\\\":{\\\"list\\\":\\\"bullet\\\"},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":\\\"\\\\n\\\\n\\\"}]}\",\"html\":\"<h1><strong>The Best Computer Science Blogs</strong></h1><p>Computer science is an amazing field of study, formalizing as a college discipline&nbsp;<a href=\\\"https://cs.uwaterloo.ca/~shallit/Courses/134/history.html#:~:text=1960's,at%20Purdue%20University%20in%201962.\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(59, 62, 79); background-color: transparent;\\\">in the ’60s</a>&nbsp;and evolving through the decades since to become part of daily life around the world. And, for some of us, it’s also turned into a passion.</p><p>Whether computer science is one of your college courses or just something of casual interest, this blog post is dedicated to you. Detailing 30 of the best computer science blogs, this list is a place to start; continue your own education and find enriching, intriguing topics related to this rapidly changing discipline, no matter your level of experience or your background.</p><p>For easy skimming and quick decision-making, I’ve rated each blog based on five different criteria:</p><ul><li><strong>Writing quality:</strong>&nbsp;the overall quality and readability of the content the blog normally produces.</li><li><strong>Consistency:</strong>&nbsp;how often the blog produces new content.</li><li><strong>Longevity:</strong>&nbsp;the length of time the blog has been around, which often indicates the trustworthiness and authority of its content.</li><li><strong>Technical depth:</strong>&nbsp;the level of technical detail you can expect to find on the blog.</li><li><strong>Broad usefulness:</strong>&nbsp;how many different interests, disciplines, and skill levels the blog appeals to.</li></ul><p><br></p><p>Currently the richest, most active place online, in my opinion, where you can read articles dedicated to computer science. A vast amount of contributors publish new content daily, from coding to data-structures, from networks to databases. A great place to start no matter what knowledge needs you may have in computer science.</p><ul><li><strong>Writing quality:</strong>&nbsp;5</li><li><strong>Consistency:</strong>&nbsp;5</li><li><strong>Longevity:</strong>&nbsp;4</li><li><strong>Technical depth:</strong>&nbsp;5</li><li><strong>Broad usefulness:</strong>&nbsp;5</li><li><strong>Overall score:</strong>&nbsp;4.8</li></ul><h3><br></h3><p>Stack Overflow always keeps its promise to solve your technical problems. That’s true not only for their forum, but also for their blog, which publishes great, daily articles about computer science topics of all kinds, but with special regard for programming languages. Our founder Karl Hughes has&nbsp;<a href=\\\"https://stackoverflow.blog/author/karl-hughes/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(59, 62, 79); background-color: transparent;\\\">also been a contributor</a>.</p><ul><li><strong>Writing quality:</strong>&nbsp;5</li><li><strong>Consistency:</strong>&nbsp;5</li><li><strong>Longevity:</strong>&nbsp;3</li><li><strong>Technical depth:</strong>&nbsp;5</li><li><strong>Broad usefulness:</strong>&nbsp;5</li><li><strong>Overall score:</strong>&nbsp;4.6</li></ul><h3><a href=\\\"https://freedom-to-tinker.com/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(59, 62, 79); background-color: transparent;\\\">Freedom To Tinker</a></h3><p><img src=\\\"https://i.imgur.com/CxJwGwV.png\\\" alt=\\\"Freedom To Tinker\\\"></p><p>Hosted by&nbsp;<a href=\\\"https://citp.princeton.edu/about/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(59, 62, 79); background-color: transparent;\\\">Princeton University’s Center for Information Technology Policy</a>, this is what happens when a research center explores the intersections of technology, engineering, public policy, and the social sciences. The UI is a bit hard to approach, but once you get past that, you’ll discover an amazing source for computer science articles. New content is posted weekly, from deeply technicals articles to discussions of the impact of technology on our daily lives.</p><ul><li><strong>Writing quality:</strong>&nbsp;5</li><li><strong>Consistency:</strong>&nbsp;4</li><li><strong>Longevity:</strong>&nbsp;4</li><li><strong>Technical depth:</strong>&nbsp;4</li><li><strong>Broad usefulness:</strong>&nbsp;4</li><li><strong>Overall score:</strong>&nbsp;4.2</li></ul><p><br></p><p><br></p>\"}",
+            "slug": "expert_level_class",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T15:32:52.988Z",
+            "update_date": "2024-06-23T16:06:36.569Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 6,
+        "fields": {
+            "category": 1,
+            "name": "Parveen Bassball Classes",
+            "price_currency": "₹",
+            "price": 6000,
+            "length": "300",
+            "experties_level": "Intermediate",
+            "open_time": "15:34:22",
+            "close_time": "15:34:23",
+            "image": "product/baseball-7985433_1280.webp",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"attributes\\\":{\\\"alt\\\":\\\"FanGraphs Baseball Blog\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://i1.feedspot.com/90758.jpg?t=1649133554\\\"}},{\\\"insert\\\":\\\"\\\\nFanGraphs Baseball shares daily baseball statistical analysis and commentary. Baseball statistics for Major League baseball and Minor League baseball with statistical analysis, graphs, and projections.\\\\n\\\\nFanGraphs Baseball Blog\\\\nby David Laurila\\\\n4h ago\\\\nDaniel Schneemann’s claim to fame is having played six positions in his first six MLB games — reportedly no player had done so in over 100 years — but a peculiar versatility record hasn’t been the 27-year-old infielder/outfielder’s only noteworthy accomplishment since he debuted on June 2nd. A surprise contributor to a surprisingly-stellar Cleveland Guardians club, Schneemann has slashed .297/.422/.568 with two home runs and a 182 wRC+ over 45 plate appearances. To say that the Brigham Young University product has come out of nowhere may not be wholly accurate, but at the same time, he kind of FanGraphs Baseball Blog\\\\nby Ben Lindbergh\\\\n1d ago\\\\nBen Lindbergh and Meg Rowley banter about the highlights of the MLB at Rickwood Field game and broadcast, Mike Trout’s unsurprisingly slow return from knee surgery, Matt Waldron’s sustained success, the incredible Royce Lewis, the challenge system’s continued ascendance over full ABS, Barry Bonds as a baseball ambassador, Elly De La Cruz’s stolen-base slump, the Yankees-Orioles AL East race, Michael Jordan and subjective stats, Buck Showalter’s scouting criteria at the MLB Draft Combine, and Shohei Ohtani and Aaron Judge as MVP candidates. Audio intro: The Gagnés, “Effectively Wild Theme FanGraphs Baseball Blog by Davy Andrews 2d ago\\\\nIsaiah J. Downing-USA TODAY Sports It’s been five weeks since Major League Baseball unveiled its first trove of bat tracking data. In that time, we’ve learned that Giancarlo Stanton swings hard, Luis Arraez swings quickly, and Juan Soto is a god who walks among us unbound by the irksome laws of physics and physiology. We’ve learned that Jose Altuve really does have the swing of a man twice his size, and that Oneil Cruz has the swing of a slightly less enormous man. Mostly, though, we’ve learned when and where batters swing their hardest. This is my fourth article about bat tracking data\\\\n\\\"},{\\\"attributes\\\":{\\\"header\\\":1},\\\"insert\\\":\\\"\\\\n\\\"}]}\",\"html\":\"<p><img src=\\\"https://i1.feedspot.com/90758.jpg?t=1649133554\\\" alt=\\\"FanGraphs Baseball Blog\\\"></p><p>FanGraphs Baseball shares daily baseball statistical analysis and commentary. Baseball statistics for Major League baseball and Minor League baseball with statistical analysis, graphs, and projections.</p><p><br></p><p>FanGraphs Baseball Blog</p><p>by David Laurila</p><p>4h ago</p><p>Daniel Schneemann’s claim to fame is having played six positions in his first six MLB games — reportedly no player had done so in over 100 years — but a peculiar versatility record hasn’t been the 27-year-old infielder/outfielder’s only noteworthy accomplishment since he debuted on June 2nd. A surprise contributor to a surprisingly-stellar Cleveland Guardians club, Schneemann has slashed .297/.422/.568 with two home runs and a 182 wRC+ over 45 plate appearances. To say that the Brigham Young University product has come out of nowhere may not be wholly accurate, but at the same time, he kind of FanGraphs Baseball Blog</p><p>by Ben Lindbergh</p><p>1d ago</p><p>Ben Lindbergh and Meg Rowley banter about the highlights of the MLB at Rickwood Field game and broadcast, Mike Trout’s unsurprisingly slow return from knee surgery, Matt Waldron’s sustained success, the incredible Royce Lewis, the challenge system’s continued ascendance over full ABS, Barry Bonds as a baseball ambassador, Elly De La Cruz’s stolen-base slump, the Yankees-Orioles AL East race, Michael Jordan and subjective stats, Buck Showalter’s scouting criteria at the MLB Draft Combine, and Shohei Ohtani and Aaron Judge as MVP candidates. Audio&nbsp;intro: The Gagnés, “Effectively Wild Theme FanGraphs Baseball Blog by Davy Andrews 2d ago</p><p>Isaiah J. Downing-USA TODAY Sports It’s been five weeks since Major League Baseball unveiled its first trove of bat tracking data. In that time, we’ve learned that Giancarlo Stanton swings hard, Luis Arraez swings quickly, and Juan Soto is a god who walks among us unbound by the irksome laws of physics and physiology. We’ve learned that Jose Altuve really does have the swing of a man twice his size, and that Oneil Cruz has the swing of a slightly less enormous man. Mostly, though, we’ve learned when and where batters swing their hardest. This is my fourth article about bat tracking data</p><h1><br></h1>\"}",
+            "slug": "Intermediat_bass_ball",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T15:38:50.695Z",
+            "update_date": "2024-06-23T16:07:56.291Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 7,
+        "fields": {
+            "category": 3,
+            "name": "Rahul Martial Art",
+            "price_currency": "$",
+            "price": 56,
+            "length": "300 hrs",
+            "experties_level": "Basic",
+            "open_time": "15:40:43",
+            "close_time": "15:40:44",
+            "image": "product/image.webp",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/jkd/what-makes-jkd-jkd/\\\"},\\\"insert\\\":\\\"What makes JKD JKD?\\\"},{\\\"attributes\\\":{\\\"align\\\":\\\"center\\\",\\\"header\\\":2},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"height\\\":\\\"150\\\",\\\"width\\\":\\\"150\\\",\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/jkd/what-makes-jkd-jkd/\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/absorbwhatisuseful.jpg?resize=150%2C150&ssl=1\\\"}},{\\\"insert\\\":\\\"\\\\nJust about every day I get messages on social media and in my inbox about how they can get started in JKD. Reasons for wanting to study Jeet Kune Do vary. Some do because they’re a huge Bruce Lee fan and watched and re-watched all of Bruce Lee’s movies. While others, like myself, wanted to study \\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/jkd/bruce-lee-and-tai-chi/\\\"},\\\"insert\\\":\\\"Bruce Lee and Tai Chi\\\"},{\\\"attributes\\\":{\\\"align\\\":\\\"center\\\",\\\"header\\\":2},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"height\\\":\\\"150\\\",\\\"width\\\":\\\"150\\\",\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/jkd/bruce-lee-and-tai-chi/\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/brucelee-leehoichuen.jpg?resize=150%2C150&ssl=1\\\"}},{\\\"insert\\\":\\\"\\\\nWhile going through some old archival footage (left over on some old hard drives I have), I came across this gem of a video of Bruce Lee demonstrating Tai Chi Chuan (Tai Ji Quan). Most probably know that Bruce Lee had been taught some of the fundamentals of Tai Ji (more specifically, Wu style).\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/jkd/the-catalyst-my-jkd-journey/\\\"},\\\"insert\\\":\\\"The Catalyst – My JKD Journey\\\"},{\\\"attributes\\\":{\\\"align\\\":\\\"center\\\",\\\"header\\\":2},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"height\\\":\\\"150\\\",\\\"width\\\":\\\"150\\\",\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/jkd/the-catalyst-my-jkd-journey/\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/Tackett-artandphiloofBLbookquote-sm.jpg?resize=150%2C150&ssl=1\\\"}},{\\\"insert\\\":\\\"\\\\nThis book was the catalyst for my interest in the art and science of Bruce Lee’s Jeet Kune Do, and the primary reason why I specifically sought out my teacher Sifu Tim Tackett. I vividly recall going to Virgin Megastore in London as a kid (must have been around 1985) looking for martial arts books. \\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/reflections/real-self-defense/\\\"},\\\"insert\\\":\\\"Real Self Defense?\\\"},{\\\"attributes\\\":{\\\"align\\\":\\\"center\\\",\\\"header\\\":2},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"alt\\\":\\\"What is real self defense\\\",\\\"height\\\":\\\"150\\\",\\\"width\\\":\\\"150\\\",\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/reflections/real-self-defense/\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/selfdefense.png?resize=150%2C150&ssl=1\\\"}},{\\\"insert\\\":\\\"\\\\nI hear a lot of people talking about self-defense on social media (and elsewhere). How we live in a violent time, and one needs to be able to protect oneself and ones family. So you MUST learn self-protection skills… learn how to shoot a gun, learn effective and lethal self-defense techniques .\\\\n\\\"},{\\\"attributes\\\":{\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/quotes/the-way-of-walking-alone/\\\"},\\\"insert\\\":\\\"The Way of Walking Alone\\\"},{\\\"attributes\\\":{\\\"align\\\":\\\"center\\\",\\\"header\\\":2},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"alt\\\":\\\"musashi, miyamoto musashi, dokkodo\\\",\\\"height\\\":\\\"150\\\",\\\"width\\\":\\\"150\\\",\\\"color\\\":\\\"#000000\\\",\\\"link\\\":\\\"https://martialmusings.com/quotes/the-way-of-walking-alone/\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/miyamoto-musashi-Dokkodo-600px.jpg?resize=150%2C150&ssl=1\\\"}},{\\\"insert\\\":\\\"\\\\nJust about anyone that is interested in martial arts have heard the name Miyamoto Musahi at some point. Musashi, as you might recall was the samurai who lived from 1584 – 1645. He’s probably most famous for his book, “The Book of 5 Rings” (Go Rin No Sho – 五輪書), and the two sword style.\\\\n\\\"}]}\",\"html\":\"<h2 class=\\\"ql-align-center\\\"><a href=\\\"https://martialmusings.com/jkd/what-makes-jkd-jkd/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\">What makes JKD JKD?</a></h2><p><a href=\\\"https://martialmusings.com/jkd/what-makes-jkd-jkd/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\"><img src=\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/absorbwhatisuseful.jpg?resize=150%2C150&amp;ssl=1\\\" height=\\\"150\\\" width=\\\"150\\\"></a></p><p>Just about every day I get messages on social media and in my inbox&nbsp;about how they&nbsp;can get started in JKD. Reasons for wanting to study Jeet Kune Do vary. Some do because they’re a huge Bruce Lee fan and watched and re-watched all of Bruce Lee’s movies. While others, like myself, wanted to study </p><h2 class=\\\"ql-align-center\\\"><a href=\\\"https://martialmusings.com/jkd/bruce-lee-and-tai-chi/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\">Bruce Lee and Tai Chi</a></h2><p><a href=\\\"https://martialmusings.com/jkd/bruce-lee-and-tai-chi/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\"><img src=\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/brucelee-leehoichuen.jpg?resize=150%2C150&amp;ssl=1\\\" height=\\\"150\\\" width=\\\"150\\\"></a></p><p>While going through some old archival footage (left over on some old hard drives I have), I came across this gem of a video of Bruce Lee demonstrating Tai Chi Chuan (Tai Ji Quan). Most probably know that Bruce Lee had been taught some of the fundamentals of Tai Ji (more specifically, Wu style).</p><h2 class=\\\"ql-align-center\\\"><a href=\\\"https://martialmusings.com/jkd/the-catalyst-my-jkd-journey/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\">The Catalyst – My JKD Journey</a></h2><p><a href=\\\"https://martialmusings.com/jkd/the-catalyst-my-jkd-journey/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\"><img src=\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/Tackett-artandphiloofBLbookquote-sm.jpg?resize=150%2C150&amp;ssl=1\\\" height=\\\"150\\\" width=\\\"150\\\"></a></p><p>This book was the catalyst for my interest in the art and science of Bruce Lee’s Jeet Kune Do, and the primary reason why I specifically sought out my teacher Sifu Tim Tackett. I vividly recall going to Virgin Megastore in London as a kid (must have been around 1985) looking for martial arts books. </p><h2 class=\\\"ql-align-center\\\"><a href=\\\"https://martialmusings.com/reflections/real-self-defense/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\">Real Self Defense?</a></h2><p><a href=\\\"https://martialmusings.com/reflections/real-self-defense/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\"><img src=\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/selfdefense.png?resize=150%2C150&amp;ssl=1\\\" alt=\\\"What is real self defense\\\" height=\\\"150\\\" width=\\\"150\\\"></a></p><p>I hear a lot of people talking about self-defense on social media (and elsewhere). How we live in a violent time, and one needs to be able to protect oneself and ones family. So you MUST learn self-protection skills… learn how to shoot a gun, learn effective and lethal self-defense techniques .</p><h2 class=\\\"ql-align-center\\\"><a href=\\\"https://martialmusings.com/quotes/the-way-of-walking-alone/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\">The Way of Walking Alone</a></h2><p><a href=\\\"https://martialmusings.com/quotes/the-way-of-walking-alone/\\\" rel=\\\"noopener noreferrer\\\" target=\\\"_blank\\\" style=\\\"color: rgb(0, 0, 0);\\\"><img src=\\\"https://i0.wp.com/martialmusings.com/wp-content/uploads/miyamoto-musashi-Dokkodo-600px.jpg?resize=150%2C150&amp;ssl=1\\\" alt=\\\"musashi, miyamoto musashi, dokkodo\\\" height=\\\"150\\\" width=\\\"150\\\"></a></p><p>Just about anyone that is interested in martial arts have heard the name Miyamoto Musahi at some point. Musashi, as you might recall was the samurai who lived from 1584 – 1645. He’s probably most famous for his book, “The Book of 5 Rings” (Go Rin No Sho – 五輪書), and the two sword style.</p>\"}",
+            "slug": "Martial Art",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T15:48:15.449Z",
+            "update_date": "2024-06-23T16:08:17.720Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 8,
+        "fields": {
+            "category": 2,
+            "name": "Senu Swimming Class",
+            "price_currency": "$",
+            "price": 120,
+            "length": "120 hrs",
+            "experties_level": "Expert",
+            "open_time": "15:50:54",
+            "close_time": "15:50:55",
+            "image": "product/download_2.jpg",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"THE BEST WATER PARKS AROUND THE WORLD\\\"},{\\\"attributes\\\":{\\\"align\\\":\\\"center\\\",\\\"header\\\":1},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"alt\\\":\\\"simply swim siam-park\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://cdn.shopify.com/s/files/1/1767/1963/files/SW-blog-best-water_parks-siam_a7857f5b-6318-4c0e-ab8c-c51f10a3f188_1024x1024.jpg?v=1713604663\\\"}},{\\\"insert\\\":\\\"\\\\n \\\\n \\\\nCalling all thrill-seekers, sun-worshippers, and families seeking adventure! There's nothing quite like a water park to beat the heat and create memories that last a lifetime. From gravity-defying slides to relaxing lazy rivers, these aquatic playgrounds offer something for everyone. But with so many water parks scattered across the globe, where do you begin?\\\\nWe will dive into some of the world's best water parks, catering to a variety of interests and budgets. Get ready to pack your swimsuit, lather on the sunscreen, and dive into a world of watery fun!\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Thrill Seeker's Paradise: Siam Park, Tenerife, Spain\\\"},{\\\"insert\\\":\\\"\\\\nOften crowned the king of water parks, Siam Park in Tenerife, Spain, is a must-visit for adrenaline junkies. This Thai-themed wonderland boasts heart-pounding rides like the Tower of Power – a near-vertical drop that sends you plummeting through a shark-filled aquarium. The park also features the longest water slide in Europe, the Jungle Snake, perfect for group rafting adventures.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Family Fun for All: Beach Park, Fortaleza, Brazil\\\"},{\\\"insert\\\":\\\"\\\\nSun-drenched Brazil offers another gem for water park enthusiasts – Beach Park in Fortaleza. This sprawling park caters to families with a wide range of attractions. Little ones can splash around in the Acqua Kids area, while older adventurers can conquer the thrilling wave pools and high-speed slides. Don't miss the thrilling park icon, the colossal slide masterpiece, Insano, featuring a near-vertical 41-meter drop!\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Underwater Adventures: Atlantis Aquaventure, Paradise Island, Bahamas\\\"},{\\\"insert\\\":\\\"\\\\nCalling all marine enthusiasts! Atlantis Aquaventure in the Bahamas combines the excitement of a water park with the wonder of the underwater world. Take a thrilling plunge through a shark-filled lagoon on the Challenger Slide, or relax in the tranquility of the Current River, which winds its way through a network of aquariums teeming with colorful fish.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"A Tropical Escape: Waterbom Bali, Indonesia\\\"},{\\\"insert\\\":\\\"\\\\nFor those seeking an exotic water park experience, look no further than Waterbom Bali in Indonesia. Nestled amidst lush greenery, this park offers a unique blend of exhilarating slides, relaxing pools, and stunning tropical landscapes. Challenge yourself on the exhilarating Climax – a near-vertical drop followed by a 360° loop – or unwind in the Lazy River, surrounded by the beauty of Bali.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Universal Appeal: Universal's Volcano Bay, Orlando, Florida, USA\\\"},{\\\"insert\\\":\\\"\\\\nImmerse yourself in a volcanic paradise at Universal's Volcano Bay in Orlando. This innovative water park features thrilling rides like the Krakatau Aqua Coaster, a high-speed water flume that propels you through a volcanic fortress. The park also boasts relaxing experiences, including the Kopiko Wai Winding River, a scenic journey through a tropical rainforest.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Beyond the Slides: Therme Erding, Erding, Germany\\\"},{\\\"insert\\\":\\\"\\\\nWater parks aren't just about adrenaline-pumping slides. Therme Erding in Germany offers a unique spa and water park experience, perfect for relaxation and rejuvenation. This sprawling complex boasts thermal baths, a wave pool, various water slides, and even a VR zone. Whether you're seeking a family getaway or a romantic escape, Therme Erding caters to all.\\\\n\\\"}]}\",\"html\":\"<h1 class=\\\"ql-align-center\\\"><strong>THE BEST WATER PARKS AROUND THE WORLD</strong></h1><p><img src=\\\"https://cdn.shopify.com/s/files/1/1767/1963/files/SW-blog-best-water_parks-siam_a7857f5b-6318-4c0e-ab8c-c51f10a3f188_1024x1024.jpg?v=1713604663\\\" alt=\\\"simply swim siam-park\\\"></p><p>&nbsp;</p><p>&nbsp;</p><p>Calling all thrill-seekers, sun-worshippers, and families seeking adventure! There's nothing quite like a water park to beat the heat and create memories that last a lifetime. From gravity-defying slides to relaxing lazy rivers, these aquatic playgrounds offer something for everyone. But with so many water parks scattered across the globe, where do you begin?</p><p>We will dive into some of the world's best water parks, catering to a variety of interests and budgets. Get ready to pack your swimsuit, lather on the sunscreen, and dive into a world of watery fun!</p><p><strong>Thrill Seeker's Paradise: Siam Park, Tenerife, Spain</strong></p><p>Often crowned the king of water parks, Siam Park in Tenerife, Spain, is a must-visit for adrenaline junkies. This Thai-themed wonderland boasts heart-pounding rides like the Tower of Power – a near-vertical drop that sends you plummeting through a shark-filled aquarium. The park also features the longest water slide in Europe, the Jungle Snake, perfect for group rafting adventures.</p><p><strong>Family Fun for All: Beach Park, Fortaleza, Brazil</strong></p><p>Sun-drenched Brazil offers another gem for water park enthusiasts – Beach Park in Fortaleza. This sprawling park caters to families with a wide range of attractions. Little ones can splash around in the Acqua Kids area, while older adventurers can conquer the thrilling wave pools and high-speed slides. Don't miss the thrilling park icon, the colossal slide masterpiece, Insano, featuring a near-vertical 41-meter drop!</p><p><strong>Underwater Adventures: Atlantis Aquaventure, Paradise Island, Bahamas</strong></p><p>Calling all marine enthusiasts! Atlantis Aquaventure in the Bahamas combines the excitement of a water park with the wonder of the underwater world. Take a thrilling plunge through a shark-filled lagoon on the Challenger Slide, or relax in the tranquility of the Current River, which winds its way through a network of aquariums teeming with colorful fish.</p><p><strong>A Tropical Escape: Waterbom Bali, Indonesia</strong></p><p>For those seeking an exotic water park experience, look no further than Waterbom Bali in Indonesia. Nestled amidst lush greenery, this park offers a unique blend of exhilarating slides, relaxing pools, and stunning tropical landscapes. Challenge yourself on the exhilarating Climax – a near-vertical drop followed by a 360° loop – or unwind in the Lazy River, surrounded by the beauty of Bali.</p><p><strong>Universal Appeal: Universal's Volcano Bay, Orlando, Florida, USA</strong></p><p>Immerse yourself in a volcanic paradise at Universal's Volcano Bay in Orlando. This innovative water park features thrilling rides like the Krakatau Aqua Coaster, a high-speed water flume that propels you through a volcanic fortress. The park also boasts relaxing experiences, including the Kopiko Wai Winding River, a scenic journey through a tropical rainforest.</p><p><strong>Beyond the Slides: Therme Erding, Erding, Germany</strong></p><p>Water parks aren't just about adrenaline-pumping slides. Therme Erding in Germany offers a unique spa and water park experience, perfect for relaxation and rejuvenation. This sprawling complex boasts thermal baths, a wave pool, various water slides, and even a VR zone. Whether you're seeking a family getaway or a romantic escape, Therme Erding caters to all.</p>\"}",
+            "slug": "expert_senu_class",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T15:53:44.980Z",
+            "update_date": "2024-06-23T16:09:09.939Z"
+        }
+    },
+    {
+        "model": "services.productservices",
+        "pk": 9,
+        "fields": {
+            "category": 4,
+            "name": "Surya Computers",
+            "price_currency": "$",
+            "price": 120,
+            "length": "300 hrs",
+            "experties_level": "Expert",
+            "open_time": "15:55:48",
+            "close_time": "15:55:50",
+            "image": "product/lovepik-students-use-computers-in-class-picture_501449310.jpg",
+            "description": "{\"delta\":\"{\\\"ops\\\":[{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"So how do computers actually work?\\\"},{\\\"attributes\\\":{\\\"header\\\":1},\\\"insert\\\":\\\"\\\\n\\\"},{\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"height\\\":\\\"442\\\",\\\"width\\\":\\\"700\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://miro.medium.com/v2/resize:fit:875/0*XIs3SPvW-rVP2eB2\\\"}},{\\\"insert\\\":\\\"\\\\n\\\\nHow computers work is something that I’ve always been curious about but never actually thought that I was going to have the actual basic knowledge to understand it, even at a high level. So doing the research to write this blog post and finding out that it wasn’t so hard to understand has been very rewarding, plus, getting to understand how computers work, again even at a high level, is pretty mind-blowing.\\\\n\\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"The most basic way of thinking of a computer is as an Input/Output machine\\\"},{\\\"insert\\\":\\\". That’s a pretty basic idea: computers take information from external sources (your keyboard, mouse, sensors or the internet), store it, process it, and return the result (Output) of that process. By the way, if you think about it, the moment computers are connected through the internet there’s an ever ending loop of inputs and outputs as the output of a computer (say a website) becomes the input of another and so forth(!!).\\\\nNow, we are all pretty used and familiar with the ways a computer has to receive input and to print out some output, we’ve all used a mouse or a keyboard, or even talked to a computer and we’ve all read an article on a website, listened to music or browsed through some old pictures, etc. What we ain’t as familiar with, and what we usually struggle to understand is how a computer actually processes information.\\\\nSo yes, on a very fundamental level all a computer understands is 1’s and 0’s which means that every single input and output gets at some point translated into or from 1’s and 0s. \\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"What is powerful about 1’s and 0’s (also called bits -from BInary digiT) is that it allows us to transform any information into electrical signals (ON/OFF).\\\"},{\\\"insert\\\":\\\" Please take a moment to think about it: ANYTHING you see, think or interact with can actually be translated and represented as electrical signals(!!!). \\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Representing information as electrical signals is what allows computers to actually process that information and transform it.\\\"},{\\\"insert\\\":\\\"\\\\nSo how does the binary number system works? Binary numbers mean that all numbers are computed with base 2. As an example, most of us are used to think of numbers with base 10. If you think about any number, let’s say 2561, you can see how depending on the position the number occupies from right to left, the number has a different value which is a multiple of ten. In this example, for instance, 1 occupies the 1s position, 6 occupies the 10s position, 5 occupies the 100s position and 2 occupies the 1000’s position. This way, (2x1000) + (5x100) + (6x10) + (1x1) = 2561. \\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"Binary numbers work in the exact same way but every incremental step represents an x2 increment over the previous one. Here’s an example of how to represent number 12:\\\"},{\\\"insert\\\":\\\"\\\\n\\\"},{\\\"attributes\\\":{\\\"height\\\":\\\"461\\\",\\\"width\\\":\\\"700\\\"},\\\"insert\\\":{\\\"image\\\":\\\"https://miro.medium.com/v2/resize:fit:875/1*ubLO1QMKB144eUkBcPArQA.png\\\"}},{\\\"insert\\\":\\\"\\\\nSo, \\\"},{\\\"attributes\\\":{\\\"bold\\\":true},\\\"insert\\\":\\\"with 8 bits you can represent any number between 0 and 255, and with 32 bits you can represent any number between 0 and 4 billion.\\\"},{\\\"insert\\\":\\\" You might be thinking, sure but what about strings and punctuation? Well, as of today, we still follow the ASCII, American Standard Code for Information Interchange that basically maps any character or punctuation sign including capital letters to one of the 8-bit numbers. And this is how we use numbers to represent letters.\\\\n\\\"}]}\",\"html\":\"<h1><strong>So how do computers actually work?</strong></h1><p><br></p><p><img src=\\\"https://miro.medium.com/v2/resize:fit:875/0*XIs3SPvW-rVP2eB2\\\" height=\\\"442\\\" width=\\\"700\\\"></p><p><br></p><p>How computers work is something that I’ve always been curious about but never actually thought that I was going to have the actual basic knowledge to understand it, even at a high level. So doing the research to write this blog post and finding out that it wasn’t so hard to understand has been very rewarding, plus, getting to understand how computers work, again even at a high level, is pretty mind-blowing.</p><p><strong>The most basic way of thinking of a computer is as an Input/Output machine</strong>. That’s a pretty basic idea: computers take information from external sources (your keyboard, mouse, sensors or the internet), store it, process it, and return the result (Output) of that process. By the way, if you think about it, the moment computers are connected through the internet there’s an ever ending loop of inputs and outputs as the output of a computer (say a website) becomes the input of another and so forth(!!).</p><p>Now, we are all pretty used and familiar with the ways a computer has to receive input and to print out some output, we’ve all used a mouse or a keyboard, or even talked to a computer and we’ve all read an article on a website, listened to music or browsed through some old pictures, etc. What we ain’t as familiar with, and what we usually struggle to understand is how a computer actually processes information.</p><p>So yes, on a very fundamental level all a computer understands is 1’s and 0’s which means that every single input and output gets at some point translated into or from 1’s and 0s.&nbsp;<strong>What is powerful about 1’s and 0’s (also called bits -from BInary digiT) is that it allows us to transform any information into electrical signals (ON/OFF).</strong>&nbsp;Please take a moment to think about it: ANYTHING you see, think or interact with can actually be translated and represented as electrical signals(!!!).&nbsp;<strong>Representing information as electrical signals is what allows computers to actually process that information and transform it.</strong></p><p>So how does the binary number system works? Binary numbers mean that all numbers are computed with base 2. As an example, most of us are used to think of numbers with base 10. If you think about any number, let’s say 2561, you can see how depending on the position the number occupies from right to left, the number has a different value which is a multiple of ten. In this example, for instance, 1 occupies the 1s position, 6 occupies the 10s position, 5 occupies the 100s position and 2 occupies the 1000’s position. This way, (2x1000) + (5x100) + (6x10) + (1x1) = 2561.&nbsp;<strong>Binary numbers work in the exact same way but every incremental step represents an x2 increment over the previous one. Here’s an example of how to represent number 12:</strong></p><p><img src=\\\"https://miro.medium.com/v2/resize:fit:875/1*ubLO1QMKB144eUkBcPArQA.png\\\" height=\\\"461\\\" width=\\\"700\\\"></p><p>So,&nbsp;<strong>with 8 bits you can represent any number between 0 and 255, and with 32 bits you can represent any number between 0 and 4 billion.</strong>&nbsp;You might be thinking, sure but what about strings and punctuation? Well, as of today, we still follow the ASCII, American Standard Code for Information Interchange that basically maps any character or punctuation sign including capital letters to one of the 8-bit numbers. And this is how we use numbers to represent letters.</p>\"}",
+            "slug": "expert_surya_class",
+            "is_active": true,
+            "is_home": true,
+            "created_date": "2024-06-23T15:59:04.098Z",
+            "update_date": "2024-06-23T16:09:25.503Z"
         }
     }
 ]
